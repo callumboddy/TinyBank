@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C150D17020EE5E5F00373957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D16F20EE5E5F00373957 /* AppDelegate.swift */; };
+		C150D17220EE5E5F00373957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D17120EE5E5F00373957 /* ViewController.swift */; };
+		C150D17520EE5E5F00373957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C150D17320EE5E5F00373957 /* Main.storyboard */; };
+		C150D17720EE5E6100373957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C150D17620EE5E6100373957 /* Assets.xcassets */; };
+		C150D17A20EE5E6100373957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C150D17820EE5E6100373957 /* LaunchScreen.storyboard */; };
+		C150D18520EE5E6100373957 /* TinyBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D18420EE5E6100373957 /* TinyBankTests.swift */; };
+		C150D19020EE5E6100373957 /* TinyBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D18F20EE5E6100373957 /* TinyBankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C150D18120EE5E6100373957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C150D16420EE5E5F00373957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C150D16B20EE5E5F00373957;
+			remoteInfo = TinyBank;
+		};
+		C150D18C20EE5E6100373957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C150D16420EE5E5F00373957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C150D16B20EE5E5F00373957;
+			remoteInfo = TinyBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C150D16C20EE5E5F00373957 /* TinyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C150D16F20EE5E5F00373957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C150D17120EE5E5F00373957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C150D17420EE5E5F00373957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C150D17620EE5E6100373957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C150D17920EE5E6100373957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C150D17B20EE5E6100373957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C150D18020EE5E6100373957 /* TinyBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C150D18420EE5E6100373957 /* TinyBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBankTests.swift; sourceTree = "<group>"; };
+		C150D18620EE5E6100373957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C150D18B20EE5E6100373957 /* TinyBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C150D18F20EE5E6100373957 /* TinyBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBankUITests.swift; sourceTree = "<group>"; };
+		C150D19120EE5E6100373957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C150D16920EE5E5F00373957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150D17D20EE5E6100373957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150D18820EE5E6100373957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C150D16320EE5E5F00373957 = {
+			isa = PBXGroup;
+			children = (
+				C150D16E20EE5E5F00373957 /* TinyBank */,
+				C150D18320EE5E6100373957 /* TinyBankTests */,
+				C150D18E20EE5E6100373957 /* TinyBankUITests */,
+				C150D16D20EE5E5F00373957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C150D16D20EE5E5F00373957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C150D16C20EE5E5F00373957 /* TinyBank.app */,
+				C150D18020EE5E6100373957 /* TinyBankTests.xctest */,
+				C150D18B20EE5E6100373957 /* TinyBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C150D16E20EE5E5F00373957 /* TinyBank */ = {
+			isa = PBXGroup;
+			children = (
+				C150D16F20EE5E5F00373957 /* AppDelegate.swift */,
+				C150D17120EE5E5F00373957 /* ViewController.swift */,
+				C150D17320EE5E5F00373957 /* Main.storyboard */,
+				C150D17620EE5E6100373957 /* Assets.xcassets */,
+				C150D17820EE5E6100373957 /* LaunchScreen.storyboard */,
+				C150D17B20EE5E6100373957 /* Info.plist */,
+			);
+			path = TinyBank;
+			sourceTree = "<group>";
+		};
+		C150D18320EE5E6100373957 /* TinyBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				C150D18420EE5E6100373957 /* TinyBankTests.swift */,
+				C150D18620EE5E6100373957 /* Info.plist */,
+			);
+			path = TinyBankTests;
+			sourceTree = "<group>";
+		};
+		C150D18E20EE5E6100373957 /* TinyBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C150D18F20EE5E6100373957 /* TinyBankUITests.swift */,
+				C150D19120EE5E6100373957 /* Info.plist */,
+			);
+			path = TinyBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C150D16B20EE5E5F00373957 /* TinyBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C150D19420EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBank" */;
+			buildPhases = (
+				C150D16820EE5E5F00373957 /* Sources */,
+				C150D16920EE5E5F00373957 /* Frameworks */,
+				C150D16A20EE5E5F00373957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyBank;
+			productName = TinyBank;
+			productReference = C150D16C20EE5E5F00373957 /* TinyBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C150D17F20EE5E6100373957 /* TinyBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C150D19720EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBankTests" */;
+			buildPhases = (
+				C150D17C20EE5E6100373957 /* Sources */,
+				C150D17D20EE5E6100373957 /* Frameworks */,
+				C150D17E20EE5E6100373957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C150D18220EE5E6100373957 /* PBXTargetDependency */,
+			);
+			name = TinyBankTests;
+			productName = TinyBankTests;
+			productReference = C150D18020EE5E6100373957 /* TinyBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C150D18A20EE5E6100373957 /* TinyBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C150D19A20EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBankUITests" */;
+			buildPhases = (
+				C150D18720EE5E6100373957 /* Sources */,
+				C150D18820EE5E6100373957 /* Frameworks */,
+				C150D18920EE5E6100373957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C150D18D20EE5E6100373957 /* PBXTargetDependency */,
+			);
+			name = TinyBankUITests;
+			productName = TinyBankUITests;
+			productReference = C150D18B20EE5E6100373957 /* TinyBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C150D16420EE5E5F00373957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Callum Boddy";
+				TargetAttributes = {
+					C150D16B20EE5E5F00373957 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					C150D17F20EE5E6100373957 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C150D16B20EE5E5F00373957;
+					};
+					C150D18A20EE5E6100373957 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C150D16B20EE5E5F00373957;
+					};
+				};
+			};
+			buildConfigurationList = C150D16720EE5E5F00373957 /* Build configuration list for PBXProject "TinyBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C150D16320EE5E5F00373957;
+			productRefGroup = C150D16D20EE5E5F00373957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C150D16B20EE5E5F00373957 /* TinyBank */,
+				C150D17F20EE5E6100373957 /* TinyBankTests */,
+				C150D18A20EE5E6100373957 /* TinyBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C150D16A20EE5E5F00373957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C150D17A20EE5E6100373957 /* LaunchScreen.storyboard in Resources */,
+				C150D17720EE5E6100373957 /* Assets.xcassets in Resources */,
+				C150D17520EE5E5F00373957 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150D17E20EE5E6100373957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150D18920EE5E6100373957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C150D16820EE5E5F00373957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C150D17220EE5E5F00373957 /* ViewController.swift in Sources */,
+				C150D17020EE5E5F00373957 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150D17C20EE5E6100373957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C150D18520EE5E6100373957 /* TinyBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C150D18720EE5E6100373957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C150D19020EE5E6100373957 /* TinyBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C150D18220EE5E6100373957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C150D16B20EE5E5F00373957 /* TinyBank */;
+			targetProxy = C150D18120EE5E6100373957 /* PBXContainerItemProxy */;
+		};
+		C150D18D20EE5E6100373957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C150D16B20EE5E5F00373957 /* TinyBank */;
+			targetProxy = C150D18C20EE5E6100373957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C150D17320EE5E5F00373957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C150D17420EE5E5F00373957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C150D17820EE5E6100373957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C150D17920EE5E6100373957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C150D19220EE5E6100373957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C150D19320EE5E6100373957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C150D19520EE5E6100373957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J6UHG553S;
+				INFOPLIST_FILE = TinyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.callumboddy.TinyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C150D19620EE5E6100373957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J6UHG553S;
+				INFOPLIST_FILE = TinyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.callumboddy.TinyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C150D19820EE5E6100373957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J6UHG553S;
+				INFOPLIST_FILE = TinyBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.callumboddy.TinyBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyBank.app/TinyBank";
+			};
+			name = Debug;
+		};
+		C150D19920EE5E6100373957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J6UHG553S;
+				INFOPLIST_FILE = TinyBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.callumboddy.TinyBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyBank.app/TinyBank";
+			};
+			name = Release;
+		};
+		C150D19B20EE5E6100373957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J6UHG553S;
+				INFOPLIST_FILE = TinyBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.callumboddy.TinyBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyBank;
+			};
+			name = Debug;
+		};
+		C150D19C20EE5E6100373957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J6UHG553S;
+				INFOPLIST_FILE = TinyBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.callumboddy.TinyBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C150D16720EE5E5F00373957 /* Build configuration list for PBXProject "TinyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C150D19220EE5E6100373957 /* Debug */,
+				C150D19320EE5E6100373957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C150D19420EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C150D19520EE5E6100373957 /* Debug */,
+				C150D19620EE5E6100373957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C150D19720EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C150D19820EE5E6100373957 /* Debug */,
+				C150D19920EE5E6100373957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C150D19A20EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C150D19B20EE5E6100373957 /* Debug */,
+				C150D19C20EE5E6100373957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C150D16420EE5E5F00373957 /* Project object */;
+}
