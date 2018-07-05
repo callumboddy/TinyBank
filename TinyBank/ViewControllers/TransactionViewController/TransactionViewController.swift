@@ -12,18 +12,18 @@ class TransactionViewController: UIViewController {
 
     @IBOutlet var tableView: UITableView!
 
-    var transactions: [Transaction] = [] {
-        didSet {
-            tableView.reloadData()
-        }
-    }
+    var transactions: [Transaction] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = UITableViewAutomaticDimension
+        reloadData()
+    }
+
+    func reloadData() {
         TransactionCient().fetch { (result) in
             if let transactions = try? result.value() {
                 self.transactions = transactions
+                self.tableView.reloadData()
             }
         }
     }
@@ -45,9 +45,11 @@ extension TransactionViewController: UITableViewDelegate {
             self.tableView.deleteRows(at: [indexPath], with: .automatic)
         }
     }
+
 }
 
 extension TransactionViewController: UITableViewDataSource {
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: TransactionTableViewCell.reuseIdentifier, for: indexPath) as? TransactionTableViewCell else {
             fatalError()
@@ -64,5 +66,6 @@ extension TransactionViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
          return transactions.count
     }
+
 }
 
