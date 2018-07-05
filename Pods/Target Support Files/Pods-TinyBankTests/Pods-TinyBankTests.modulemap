@@ -1,0 +1,6 @@
+framework module Pods_TinyBankTests {
+  umbrella header "Pods-TinyBankTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,13 +12,13 @@
         <!--Transactions-->
         <scene sceneID="FCW-GV-SqJ">
             <objects>
-                <tableViewController id="Xyj-8a-wxV" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="TransactionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xyj-8a-wxV" customClass="TransactionViewController" customModule="TinyBank" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rzO-SZ-JoV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="bXT-CB-XPW">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionTableViewCell" rowHeight="90" id="bXT-CB-XPW" customClass="TransactionTableViewCell" customModule="TinyBank" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bXT-CB-XPW" id="Qla-8W-CwT">
@@ -26,26 +26,26 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a4r-yz-ZYP">
-                                            <rect key="frame" x="16" y="25" width="40" height="40"/>
+                                            <rect key="frame" x="16" y="16" width="40" height="40"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="40" id="Bc4-wJ-e4M"/>
-                                                <constraint firstAttribute="width" constant="40" id="ciu-7L-297"/>
+                                                <constraint firstAttribute="height" constant="40" id="CAK-zP-KyR"/>
+                                                <constraint firstAttribute="width" constant="40" id="o3L-Zi-PFM"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwD-Xq-apG">
-                                            <rect key="frame" x="72" y="25" width="37.5" height="18"/>
+                                            <rect key="frame" x="72" y="16" width="37.5" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQv-Iv-BHI">
-                                            <rect key="frame" x="72" y="49" width="33" height="16"/>
+                                            <rect key="frame" x="72" y="42" width="33" height="16"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOH-pn-XFY">
-                                            <rect key="frame" x="321.5" y="25.5" width="37.5" height="18"/>
+                                            <rect key="frame" x="321" y="16" width="38" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -56,12 +56,19 @@
                                         <constraint firstItem="LQv-Iv-BHI" firstAttribute="leading" secondItem="LwD-Xq-apG" secondAttribute="leading" id="2QE-Js-oyO"/>
                                         <constraint firstAttribute="trailing" secondItem="SOH-pn-XFY" secondAttribute="trailing" constant="16" id="Adj-6K-834"/>
                                         <constraint firstItem="a4r-yz-ZYP" firstAttribute="leading" secondItem="Qla-8W-CwT" secondAttribute="leading" constant="16" id="Prg-Du-S2b"/>
-                                        <constraint firstItem="LQv-Iv-BHI" firstAttribute="bottom" secondItem="a4r-yz-ZYP" secondAttribute="bottom" id="QQo-22-y2K"/>
-                                        <constraint firstItem="LwD-Xq-apG" firstAttribute="top" secondItem="a4r-yz-ZYP" secondAttribute="top" id="Xwl-45-rzH"/>
                                         <constraint firstItem="LwD-Xq-apG" firstAttribute="leading" secondItem="a4r-yz-ZYP" secondAttribute="trailing" constant="16" id="i4r-0W-CBH"/>
-                                        <constraint firstItem="a4r-yz-ZYP" firstAttribute="centerY" secondItem="Qla-8W-CwT" secondAttribute="centerY" id="kYs-gj-HeR"/>
+                                        <constraint firstItem="a4r-yz-ZYP" firstAttribute="top" secondItem="LwD-Xq-apG" secondAttribute="top" id="m4X-7I-3cx"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="LQv-Iv-BHI" secondAttribute="bottom" constant="16" id="oe4-bP-gCb"/>
+                                        <constraint firstItem="LwD-Xq-apG" firstAttribute="top" secondItem="Qla-8W-CwT" secondAttribute="top" constant="16" id="qDk-Qs-Ohc"/>
+                                        <constraint firstItem="LQv-Iv-BHI" firstAttribute="top" secondItem="LwD-Xq-apG" secondAttribute="bottom" constant="8" id="wV6-i4-wGp"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryLabel" destination="LQv-Iv-BHI" id="5Ka-sI-Cdl"/>
+                                    <outlet property="iconImageView" destination="a4r-yz-ZYP" id="Cbk-C1-Yov"/>
+                                    <outlet property="priceLabel" destination="SOH-pn-XFY" id="qZx-P1-hpe"/>
+                                    <outlet property="titleLabel" destination="LwD-Xq-apG" id="K1u-x9-hpR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -69,7 +76,17 @@
                             <outlet property="delegate" destination="Xyj-8a-wxV" id="0N7-4J-nzB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Transactions" id="WQl-G7-wsJ"/>
+                    <navigationItem key="navigationItem" title="Transactions" id="WQl-G7-wsJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="x2N-AD-MWH">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="didSelectEditBarButtonItem:" destination="Xyj-8a-wxV" id="k3h-fL-6st"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="rzO-SZ-JoV" id="ko9-iB-EJe"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uak-Vg-4F1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

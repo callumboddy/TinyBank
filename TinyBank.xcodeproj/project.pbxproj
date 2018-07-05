@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1155CD6C800A51923A8964FD /* Pods_TinyBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1ACAFF266D4177416A9754 /* Pods_TinyBank.framework */; };
+		65BCBA6E8193EDCDCD2DCA5D /* Pods_TinyBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C9697F7FB96E2CFBEB7A2E /* Pods_TinyBankTests.framework */; };
+		C135F86A20EE7080006ADBB4 /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135F86920EE7080006ADBB4 /* PriceFormatter.swift */; };
 		C150D17020EE5E5F00373957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D16F20EE5E5F00373957 /* AppDelegate.swift */; };
-		C150D17220EE5E5F00373957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D17120EE5E5F00373957 /* ViewController.swift */; };
-		C150D17520EE5E5F00373957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C150D17320EE5E5F00373957 /* Main.storyboard */; };
+		C150D17220EE5E5F00373957 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D17120EE5E5F00373957 /* TransactionViewController.swift */; };
+		C150D17520EE5E5F00373957 /* TransactionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C150D17320EE5E5F00373957 /* TransactionViewController.storyboard */; };
 		C150D17720EE5E6100373957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C150D17620EE5E6100373957 /* Assets.xcassets */; };
 		C150D17A20EE5E6100373957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C150D17820EE5E6100373957 /* LaunchScreen.storyboard */; };
 		C150D18520EE5E6100373957 /* TinyBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D18420EE5E6100373957 /* TinyBankTests.swift */; };
 		C150D19020EE5E6100373957 /* TinyBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D18F20EE5E6100373957 /* TinyBankUITests.swift */; };
+		C150D19E20EE5E8300373957 /* TransactionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D19D20EE5E8300373957 /* TransactionClient.swift */; };
+		C150D1A020EE5EA100373957 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D19F20EE5EA100373957 /* Result.swift */; };
+		C150D1A220EE5EAD00373957 /* CodableParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D1A120EE5EAD00373957 /* CodableParser.swift */; };
+		C150D1A520EE5EDB00373957 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D1A420EE5EDB00373957 /* Transaction.swift */; };
+		C150D1A720EE5EF500373957 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D1A620EE5EF500373957 /* Amount.swift */; };
+		C150D1A920EE5EFC00373957 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D1A820EE5EFC00373957 /* Product.swift */; };
+		C150D1AE20EE674F00373957 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D1AD20EE674F00373957 /* TransactionTableViewCell.swift */; };
+		FD69C98EA61F204A1BE87CE7 /* Pods_TinyBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F39BDD9EF46DC71F6E5B2D8 /* Pods_TinyBankUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1ACAFF266D4177416A9754 /* Pods_TinyBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C9697F7FB96E2CFBEB7A2E /* Pods_TinyBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A2AD39E800ABEC4C0CBE37 /* Pods-TinyBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinyBank/Pods-TinyBank.debug.xcconfig"; sourceTree = "<group>"; };
+		8F39BDD9EF46DC71F6E5B2D8 /* Pods_TinyBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2368F82F3D43CB5DCC74C8 /* Pods-TinyBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyBankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinyBankTests/Pods-TinyBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		C135F86920EE7080006ADBB4 /* PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
 		C150D16C20EE5E5F00373957 /* TinyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C150D16F20EE5E5F00373957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C150D17120EE5E5F00373957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C150D17420EE5E5F00373957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C150D17120EE5E5F00373957 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		C150D17420EE5E5F00373957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TransactionViewController.storyboard; sourceTree = "<group>"; };
 		C150D17620EE5E6100373957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C150D17920EE5E6100373957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C150D17B20EE5E6100373957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +64,17 @@
 		C150D18B20EE5E6100373957 /* TinyBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C150D18F20EE5E6100373957 /* TinyBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyBankUITests.swift; sourceTree = "<group>"; };
 		C150D19120EE5E6100373957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C150D19D20EE5E8300373957 /* TransactionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionClient.swift; sourceTree = "<group>"; };
+		C150D19F20EE5EA100373957 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C150D1A120EE5EAD00373957 /* CodableParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableParser.swift; sourceTree = "<group>"; };
+		C150D1A420EE5EDB00373957 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		C150D1A620EE5EF500373957 /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		C150D1A820EE5EFC00373957 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C150D1AD20EE674F00373957 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		D4F4C66A9E29BF95AB3C42CF /* Pods-TinyBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyBankUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinyBankUITests/Pods-TinyBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC4E3EEE276089C1FA8162AE /* Pods-TinyBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyBankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinyBankTests/Pods-TinyBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF72B5297A2813405F6E3EC9 /* Pods-TinyBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinyBank/Pods-TinyBank.release.xcconfig"; sourceTree = "<group>"; };
+		E6F92857D292C6F9034B060C /* Pods-TinyBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyBankUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinyBankUITests/Pods-TinyBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1155CD6C800A51923A8964FD /* Pods_TinyBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BCBA6E8193EDCDCD2DCA5D /* Pods_TinyBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD69C98EA61F204A1BE87CE7 /* Pods_TinyBankUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FC20CC64958041854B8A17A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25A2AD39E800ABEC4C0CBE37 /* Pods-TinyBank.debug.xcconfig */,
+				DF72B5297A2813405F6E3EC9 /* Pods-TinyBank.release.xcconfig */,
+				DC4E3EEE276089C1FA8162AE /* Pods-TinyBankTests.debug.xcconfig */,
+				BD2368F82F3D43CB5DCC74C8 /* Pods-TinyBankTests.release.xcconfig */,
+				E6F92857D292C6F9034B060C /* Pods-TinyBankUITests.debug.xcconfig */,
+				D4F4C66A9E29BF95AB3C42CF /* Pods-TinyBankUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81BB04FBB209E8AC2239DA5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1ACAFF266D4177416A9754 /* Pods_TinyBank.framework */,
+				23C9697F7FB96E2CFBEB7A2E /* Pods_TinyBankTests.framework */,
+				8F39BDD9EF46DC71F6E5B2D8 /* Pods_TinyBankUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C135F86720EE6FE2006ADBB4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C135F86820EE6FED006ADBB4 /* API Clients */,
+				C150D19F20EE5EA100373957 /* Result.swift */,
+				C150D1A120EE5EAD00373957 /* CodableParser.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C135F86820EE6FED006ADBB4 /* API Clients */ = {
+			isa = PBXGroup;
+			children = (
+				C150D19D20EE5E8300373957 /* TransactionClient.swift */,
+			);
+			path = "API Clients";
+			sourceTree = "<group>";
+		};
 		C150D16320EE5E5F00373957 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +153,8 @@
 				C150D18320EE5E6100373957 /* TinyBankTests */,
 				C150D18E20EE5E6100373957 /* TinyBankUITests */,
 				C150D16D20EE5E5F00373957 /* Products */,
+				2FC20CC64958041854B8A17A /* Pods */,
+				81BB04FBB209E8AC2239DA5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +171,10 @@
 		C150D16E20EE5E5F00373957 /* TinyBank */ = {
 			isa = PBXGroup;
 			children = (
+				C135F86720EE6FE2006ADBB4 /* Networking */,
+				C150D1AA20EE670400373957 /* ViewControllers */,
+				C150D1A320EE5ED200373957 /* Model */,
 				C150D16F20EE5E5F00373957 /* AppDelegate.swift */,
-				C150D17120EE5E5F00373957 /* ViewController.swift */,
-				C150D17320EE5E5F00373957 /* Main.storyboard */,
 				C150D17620EE5E6100373957 /* Assets.xcassets */,
 				C150D17820EE5E6100373957 /* LaunchScreen.storyboard */,
 				C150D17B20EE5E6100373957 /* Info.plist */,
@@ -125,6 +200,43 @@
 			path = TinyBankUITests;
 			sourceTree = "<group>";
 		};
+		C150D1A320EE5ED200373957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C150D1A420EE5EDB00373957 /* Transaction.swift */,
+				C150D1A620EE5EF500373957 /* Amount.swift */,
+				C150D1A820EE5EFC00373957 /* Product.swift */,
+				C135F86920EE7080006ADBB4 /* PriceFormatter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C150D1AA20EE670400373957 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C150D1AB20EE670F00373957 /* TransactionViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C150D1AB20EE670F00373957 /* TransactionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C150D1AC20EE673800373957 /* Subviews */,
+				C150D17120EE5E5F00373957 /* TransactionViewController.swift */,
+				C150D17320EE5E5F00373957 /* TransactionViewController.storyboard */,
+			);
+			path = TransactionViewController;
+			sourceTree = "<group>";
+		};
+		C150D1AC20EE673800373957 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				C150D1AD20EE674F00373957 /* TransactionTableViewCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C150D19420EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBank" */;
 			buildPhases = (
+				D217021C13E238D945975E44 /* [CP] Check Pods Manifest.lock */,
 				C150D16820EE5E5F00373957 /* Sources */,
 				C150D16920EE5E5F00373957 /* Frameworks */,
 				C150D16A20EE5E5F00373957 /* Resources */,
+				5C40DCF6BB0B9EF4BC380BEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C150D19720EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBankTests" */;
 			buildPhases = (
+				A9F31E5F265EC09B4ABE9C94 /* [CP] Check Pods Manifest.lock */,
 				C150D17C20EE5E6100373957 /* Sources */,
 				C150D17D20EE5E6100373957 /* Frameworks */,
 				C150D17E20EE5E6100373957 /* Resources */,
@@ -167,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C150D19A20EE5E6100373957 /* Build configuration list for PBXNativeTarget "TinyBankUITests" */;
 			buildPhases = (
+				A3D23EC664063DCF08931BAB /* [CP] Check Pods Manifest.lock */,
 				C150D18720EE5E6100373957 /* Sources */,
 				C150D18820EE5E6100373957 /* Frameworks */,
 				C150D18920EE5E6100373957 /* Resources */,
@@ -231,7 +347,7 @@
 			files = (
 				C150D17A20EE5E6100373957 /* LaunchScreen.storyboard in Resources */,
 				C150D17720EE5E6100373957 /* Assets.xcassets in Resources */,
-				C150D17520EE5E5F00373957 /* Main.storyboard in Resources */,
+				C150D17520EE5E5F00373957 /* TransactionViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +367,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C40DCF6BB0B9EF4BC380BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TinyBank/Pods-TinyBank-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinyBank/Pods-TinyBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D23EC664063DCF08931BAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F31E5F265EC09B4ABE9C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D217021C13E238D945975E44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinyBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C150D16820EE5E5F00373957 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C150D17220EE5E5F00373957 /* ViewController.swift in Sources */,
+				C150D17220EE5E5F00373957 /* TransactionViewController.swift in Sources */,
+				C150D1A920EE5EFC00373957 /* Product.swift in Sources */,
+				C135F86A20EE7080006ADBB4 /* PriceFormatter.swift in Sources */,
+				C150D1A220EE5EAD00373957 /* CodableParser.swift in Sources */,
+				C150D1A520EE5EDB00373957 /* Transaction.swift in Sources */,
+				C150D1A720EE5EF500373957 /* Amount.swift in Sources */,
+				C150D19E20EE5E8300373957 /* TransactionClient.swift in Sources */,
+				C150D1A020EE5EA100373957 /* Result.swift in Sources */,
+				C150D1AE20EE674F00373957 /* TransactionTableViewCell.swift in Sources */,
 				C150D17020EE5E5F00373957 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +492,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C150D17320EE5E5F00373957 /* Main.storyboard */ = {
+		C150D17320EE5E5F00373957 /* TransactionViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C150D17420EE5E5F00373957 /* Base */,
 			);
-			name = Main.storyboard;
+			name = TransactionViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		C150D17820EE5E6100373957 /* LaunchScreen.storyboard */ = {
@@ -428,6 +627,7 @@
 		};
 		C150D19520EE5E6100373957 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A2AD39E800ABEC4C0CBE37 /* Pods-TinyBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +646,7 @@
 		};
 		C150D19620EE5E6100373957 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF72B5297A2813405F6E3EC9 /* Pods-TinyBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +665,7 @@
 		};
 		C150D19820EE5E6100373957 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4E3EEE276089C1FA8162AE /* Pods-TinyBankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +687,7 @@
 		};
 		C150D19920EE5E6100373957 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2368F82F3D43CB5DCC74C8 /* Pods-TinyBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +709,7 @@
 		};
 		C150D19B20EE5E6100373957 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F92857D292C6F9034B060C /* Pods-TinyBankUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +730,7 @@
 		};
 		C150D19C20EE5E6100373957 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F4C66A9E29BF95AB3C42CF /* Pods-TinyBankUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
